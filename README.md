@@ -5,6 +5,7 @@
 This repo was created in order to maintain version control for my Web and Mobile Development courses final project. The intention is to not only allow myself the opportunity to roll back any changes when I encounter issues, but also to allow this to be a reflection of my learning process and the quality of my work going forward for future potential employers. In the process of completing the project I am becoming comfortable with HTML, CSS, JavaScript, and common GitHub commands. This project is built entire utilizing vanilla HTML and CSS with some small JavaScript functionality for things like the hero image Carousel and Reservation and Signup forms that will utilize pop-up form with CSS styling instead of a static HTML page.
 
 ## Proposal
+
 ![Loyd Johnson_Proposal_ITC2400_Page_1](https://github.com/user-attachments/assets/3844a616-9e32-4fb3-9c30-95c76e6b5db9)
 ![Loyd Johnson_Proposal_ITC2400_Page_2](https://github.com/user-attachments/assets/35c641ce-d76f-4c7d-905e-753e5f90dd6a)
 ![Loyd Johnson_Proposal_ITC2400_Page_3](https://github.com/user-attachments/assets/26198b87-d85a-42ec-8200-ca4de95579af)
