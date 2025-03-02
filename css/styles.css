@@ -86,7 +86,6 @@ header {
 }
 
 button {
-    text-decoration: none;
     display: block;
     border: none;
     background-color: #000000;
@@ -115,13 +114,13 @@ button:hover {
     max-width: 2600px;
     margin: 0 auto;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .carousel__track-container {
     height: 100%;
     position: relative;
-    height: 510px;
+    height: 520px;
 }
 
 .carousel__track {
@@ -191,25 +190,23 @@ button:hover {
     display: flex;
     max-width: 83%;
     justify-content: center;
-    flex-wrap: wrap;
     margin: 0 auto;
 }
 
 .item.image-1 {
-    background-color: pink;
+    
 }
 
 .item.image-2 {
-    background-color: pink;
+    
 }
 
 .item.text-block-1 {
-    background-color: pink;
+    
 }
 
 .item.text-block-2 {
-    background-color: lightblue;
-    flex-grow: 1;
+
 }
 
 .item.image_caption-1 {
@@ -217,7 +214,7 @@ button:hover {
     width: 350px;
 }
 .call-to-action {
-    background-color: lightgreen;    
+        
 }
 
 .flex-card {
