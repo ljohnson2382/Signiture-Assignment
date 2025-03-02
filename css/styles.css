@@ -1,0 +1,273 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+
+
+}
+
+p {
+    padding-top: 1rem;
+}
+
+li a button{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #222222;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.nav__bar {
+    width: auto;
+    padding: 0;
+}
+
+.nav__links{
+    display: block;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: ;
+    background-color: #222222;
+    
+}
+
+.nav__bar a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 1rem;
+}
+
+.nav__links {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    text-decoration: none;
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;
+    background: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo a:hover {
+    color: aqua;
+}
+
+button {
+    text-decoration: none;
+    display: block;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: .5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer; 
+}
+
+.nav__bar button a {
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.carousel {
+    position: relative;
+    height: 460px;
+    width: 85%;
+    max-width: 2600px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.carousel__track-container {
+    height: 100%;
+    position: relative;
+    height: 510px;
+}
+
+.carousel__track {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.carousel__track ul li {
+    list-style: none;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+.carousel__image {
+    width: 100%;
+    object-fit: cover;
+}
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.carousel__button img {
+    width: 40px;
+    rgba{0,0,0,.3}
+}
+
+.carousel__button--left {
+    left: -40px;
+}
+.carousel__button--right {
+   right: -60px;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 0;
+    padding: 1px;
+    width: 40px;
+    height: 5px;
+    background: rgba(0,0,0,.5);
+    margin: 0 15px;
+    z-index: 1;
+}
+
+.carousel__indicator.current-slide {
+    background: rgb{255,255,255}
+}
+
+.flex-group {
+    display: flex;
+    max-width: 83%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item.image-1 {
+    background-color: pink;
+}
+
+.item.image-2 {
+    background-color: pink;
+}
+
+.item.text-block-1 {
+    background-color: pink;
+}
+
+.item.text-block-2 {
+    background-color: lightblue;
+    flex-grow: 1;
+}
+
+.item.image_caption-1 {
+    border-style: ridge;
+    width: 350px;
+}
+.call-to-action {
+    background-color: lightgreen;    
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    height: fit-content;
+    width: 85%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    gap: 3.5rem;;
+}
+.item {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.item.bello-fresco {
+    border-style: ridge;
+    height: 400px;
+
+}
+
+.item.el-eden {
+    border-style: ridge;
+    height: 400px;
+    position: relative;
+}
+
+.item.prime {
+    border-style: ridge;
+    height: 400px;
+    width: fit-content;
+    padding: none;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: flex-start;
+    background-color: #222222;
+    color: #ffffff;
+    margin: 0rem;
+    margin-top: 2rem;
+    height: 6rem;
+    padding: 5rem;
+    width: 100%;
+}
+
+.logo{
+    background: transparent;
+}
