@@ -145,6 +145,7 @@ button:hover {
     width: 100%;
     object-fit: cover;
 }
+
 .carousel__button {
     position: absolute;
     top: 50%;
@@ -191,6 +192,7 @@ button:hover {
     max-width: 83%;
     justify-content: center;
     margin: 0 auto;
+    gap: 1rem;
 }
 
 .item.image-1 {
@@ -225,7 +227,6 @@ button:hover {
     margin-right: 7.5rem;
     height: fit-content;
     width: 85%;
-    padding-top: 5rem;
     padding-bottom: 2rem;
     gap: 3.5rem;;
 }
