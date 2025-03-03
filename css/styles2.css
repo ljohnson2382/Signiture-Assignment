@@ -275,3 +275,116 @@ footer {
 .logo{
     background: transparent;
 }
+
+
+
+
+
+
+
+
+
+
+
+.flex-group * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item.image-1 {
+    
+}
+
+.item.image-2 {
+    flex-shrink: 0;
+}
+
+.item.text-block-1 {
+    
+}
+
+.item.text-block-2 {
+    flex-shrink: 0;
+}
+
+.item.image_caption-1 {
+    border-style: ridge;
+    width: 350px;
+}
+
+.call-to-action {
+        
+}
+
+
+.item {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.item.bello-fresco {
+    flex-shrink: 1;
+    border-style: ridge;
+    height: 400px;
+
+}
+
+.item.el-eden {
+    flex-shrink: 1;
+    border-style: ridge;
+    height: 400px;
+}
+
+.item.prime {
+    flex-shrink: 1;
+    border-style: ridge;
+    height: 400px;
+    width: fit-content;
+    padding: none;
+}
+
+
+
+
+
+header .nav__bar ul li:focus-within > ul,
+header .nav__bar ul li:hover > ul {
+    display: initial;
+}
+
+
+<input type="checkbox" id="menu-bar">
+<label for="menu-bar">Menu</label>
+
+@media(max-width:901px){
+    header {
+        padding: 20;
+    }
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header label {
+    display: initial;
+
+}
+
+header .nav__bar {
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    background: #222222;
+    border-top: 1px solid rgba(0,0,0,.1):
+}
+
+header .nav__bar ul li {
+    width: 100%;
+}

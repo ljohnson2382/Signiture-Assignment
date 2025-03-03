@@ -6,6 +6,7 @@
 }
 
 main {
+    
 
 
 }
@@ -76,6 +77,10 @@ header {
     text-decoration: underline;
 }
 
+.nav__bar button a {
+    text-decoration: none;
+}
+
 .logo {
     text-decoration: none;
     margin-right: auto;
@@ -108,10 +113,6 @@ button {
     cursor: pointer; 
 }
 
-.nav__bar button a {
-    text-decoration: none;
-}
-
 button:hover {
     text-decoration: none;
     background-color: #ffffff;
@@ -123,15 +124,17 @@ button:hover {
     height: 460px;
     width: 85%;
     max-width: 2600px;
+    min-width: 53px;
     margin: 0 auto;
     margin-top: 4rem;
     margin-bottom: 6rem;
+    padding-top: .5rem;
 }
 
 .carousel__track-container {
     height: 100%;
     position: relative;
-    height: 520px;
+    height: 526px;
 }
 
 .carousel__track {
@@ -160,7 +163,7 @@ button:hover {
 .carousel__button {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(30px);
     background: transparent;
     border: 0;
     padding: 0;
@@ -172,10 +175,10 @@ button:hover {
 }
 
 .carousel__button--left {
-    left: -40px;
+    left: -22px;
 }
 .carousel__button--right {
-   right: -60px;
+   right: -40px;
 }
 
 .carousel__nav {
@@ -200,17 +203,17 @@ button:hover {
 
 .flex-group * {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 83%;
-    justify-content: center;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    margin-left: 4.7rem;
 }
 
 .item.image-1 {
-    
+    width: 300px;
 }
 
 .item.image-2 {
-    flex-shrink: 0;
+
 }
 
 .item.text-block-1 {
@@ -218,8 +221,7 @@ button:hover {
 }
 
 .item.text-block-2 {
-    flex-shrink: 0;
-}
+    flex-shrink: 0;}
 
 .item.image_caption-1 {
     border-style: ridge;
@@ -236,7 +238,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    gap: 4rem;;
+    gap: 1rem;
+    padding-top:0;
 }
 .item {
     display: flex;
@@ -244,9 +247,9 @@ button:hover {
     flex-wrap: wrap;
 }
 .item.bello-fresco {
+
     border-style: ridge;
     height: 400px;
-
 }
 
 .item.el-eden {
@@ -263,7 +266,8 @@ button:hover {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    align-items: end;
     background-color: #222222;
     color: #ffffff;
     margin: 0rem;
@@ -271,8 +275,4 @@ footer {
     margin-top: 2rem;
     height: 12rem;
     width: 100%;
-}
-
-.logo{
-    background: transparent;
 }
