@@ -8,7 +8,6 @@
 main {
     
 
-
 }
 
 p {
@@ -17,7 +16,6 @@ p {
 
 hr {
     style="z-index: 1;
-    width: 12%;
 }
 
 li a button{
@@ -42,6 +40,54 @@ header {
     position: fixed;
     z-index: 1;
     top: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+}
+
+#check {
+    display: none;
+}
+.hamburger{
+    transform: scale(.1);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__links li {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.sidebar__links a {
+    width: 100%;
+}
+
+.sidebar__links a:hover {
+    text-decoration: underline;
+    transition: ease-in-out;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #222222;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.081);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+}
+.close-icon {
+    transform: scale(.5);
 }
 
 .nav__bar {
@@ -75,6 +121,7 @@ header {
 
 .nav__links a:hover {
     text-decoration: underline;
+    transition: ease-in-out;
 }
 
 .nav__bar button a {
@@ -110,7 +157,8 @@ button {
     margin-right: 1rem;
     border: none;
     border-radius: 40px;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-left: .5rem;
 }
 
 button:hover {
@@ -201,15 +249,17 @@ button:hover {
     background: rgb{255,255,255}
 }
 
-.flex-group * {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: flex-start;
-    margin-left: 4.7rem;
+.container {
+    display: grid;
+    max-width: 100rem;
+    margin-inline: auto;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(100px), 1fr);
+    gap: 1rem
 }
 
 .item.image-1 {
-    width: 300px;
+    
 }
 
 .item.image-2 {
@@ -217,19 +267,15 @@ button:hover {
 }
 
 .item.text-block-1 {
-    
+
 }
 
 .item.text-block-2 {
-    flex-shrink: 0;}
 
-.item.image_caption-1 {
-    border-style: ridge;
-    width: 350px;
 }
 
 .call-to-action {
-        
+    justify-self: end;
 }
 
 .flex-card {
@@ -250,6 +296,7 @@ button:hover {
 
     border-style: ridge;
     height: 400px;
+
 }
 
 .item.el-eden {
@@ -275,4 +322,15 @@ footer {
     margin-top: 2rem;
     height: 12rem;
     width: 100%;
+}
+
+
+
+
+
+
+@media and (max-width: 1306;) {
+    .hideOnMobile{
+        display: none;
+    }
 }
