@@ -7,10 +7,12 @@
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
     padding-top: 1rem;
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
     margin-bottom: 1rem;
 }
 
@@ -264,7 +266,6 @@ button:hover {
     margin-inline: auto;
     height: fit-content;
     max-width: 2400px;
-    background: #00ffff;
     padding: 0;
 
 }
@@ -297,7 +298,6 @@ button:hover {
 .item.image-1 {
     height: fit-content;
     object-fit: cover;
-    background: pink;
     
 }
 .item.image-1 img{
@@ -308,28 +308,24 @@ button:hover {
     height: fit-content;
     width: 50%;
     object-fit: cover;
-    background: pink;
 }
 
 .item.text-block-1 {
     height: fit-content;
     width: 50%;
     object-fit: cover;
-    background: pink;
 }
 
 .item.text-block-2 {
     height: fit-content;
     width: 50%;
     object-fit: cover;
-    background: pink;
 }
 
 .call-to-action {
     height: fit-content;
     width: 50%;
     object-fit: cover;
-    background: pink;
 }
 
 .flex-card {
@@ -378,8 +374,13 @@ footer {
     width: 100%;
 }
 
+footer h1 {
+    margin-left: 2rem;
+}
 
-
+footer hr {
+    margin-left: 16rem;
+}
 
 
 
