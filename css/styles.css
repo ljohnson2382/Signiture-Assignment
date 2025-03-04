@@ -5,17 +5,17 @@
     padding: 0;
 }
 
-main {
-    
-
-}
-
 p {
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 1rem;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
 }
 
 hr {
-    style="z-index: 1;
+    z-index: 1;
 }
 
 li a button{
@@ -163,7 +163,7 @@ button {
 
 button:hover {
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #00ffff;
     color: #000000;
 }
 
@@ -218,20 +218,27 @@ button:hover {
 }
 
 .carousel__button img {
-    width: 40px;
-    rgba{0,0,0,.3}
+    width: 60px;
+    background-color: transparent;
 }
 
 .carousel__button--left {
-    left: -22px;
+    left: -46px;
+    z-index: 1;
 }
 .carousel__button--right {
-   right: -40px;
+   right: -54px;
+   z-index: 1;
 }
 
 .carousel__nav {
     display: flex;
     justify-content: center;
+    /* background-color: rgb(0, 0, 0, .008); */
+    max-width: fit-content;
+    height: 20px;
+    padding 0;
+    margin-inline: auto;
 }
 
 .carousel__indicator {
@@ -240,42 +247,89 @@ button:hover {
     padding: 1px;
     width: 40px;
     height: 5px;
-    background: rgba(0,0,0,.5);
     margin: 0 15px;
     z-index: 1;
 }
 
 .carousel__indicator.current-slide {
-    background: rgb{255,255,255}
+    background: #00ffff;
+}
+
+.main {
+
 }
 
 .container {
-    display: grid;
-    max-width: 100rem;
+    width: 84%;
     margin-inline: auto;
-    grid-template-rows: repeat(2, 100px);
-    grid-template-columns: repeat(auto-fit, minmax(100px), 1fr);
-    gap: 1rem
+    height: fit-content;
+    max-width: 2400px;
+    background: #00ffff;
+    padding: 0;
+
+}
+.content__grid {
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
 }
 
+.content__img {
+    max-width: 100%;
+    max-height: 300px;
+    padding: 0;
+    object-position: cover;
+
+}
+
+.image__caption {
+    padding-bottom: 1rem;  
+}
+
+.content__span-2 {
+    grid-column: span 2; 
+
+}
+
+
+
 .item.image-1 {
+    height: fit-content;
+    object-fit: cover;
+    background: pink;
+    
+}
+.item.image-1 img{
     
 }
 
 .item.image-2 {
-
+    height: fit-content;
+    width: 50%;
+    object-fit: cover;
+    background: pink;
 }
 
 .item.text-block-1 {
-
+    height: fit-content;
+    width: 50%;
+    object-fit: cover;
+    background: pink;
 }
 
 .item.text-block-2 {
-
+    height: fit-content;
+    width: 50%;
+    object-fit: cover;
+    background: pink;
 }
 
 .call-to-action {
-    justify-self: end;
+    height: fit-content;
+    width: 50%;
+    object-fit: cover;
+    background: pink;
 }
 
 .flex-card {
