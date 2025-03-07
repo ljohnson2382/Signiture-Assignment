@@ -3,25 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile_styles.css" media="(min-width: 300px) and (max-width: 1200px)">
     <title>Home - Lux Resorts</title>
-      <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div>
         <header>
             <h1 class = "logo"><a href="index.html">Lux Resorts</a></h1>
-            <nav class="nav__bar">
-               <!--  <div class="sidebar">
-                    <ul class="sidebar__links">
-                        <li><a href="hotels-and-resorts.html">Hotels & Resorts</a></li>
-                        <li><a href="dining.html">Dining</a></li>
-                        <li><a href="meetings-and-events.html">Meetings & Events</a></li>
-                        <li><img src="images/icon-close.png" class="close-icon" alt="" height="26" width="26"></li>
-                        <input type="checkbox" id="check">
-                    </ul>
-                    <button>Reserve Now</button>
-                    <button>Sign In</button>
-                </div> -->
+            <nav class="nav__bar" class="hideOnMobile">
                 <ul class="nav__links">
                     <li class="hideOnMobile"><a href="hotels-and-resorts.html">Hotels & Resorts</a></li>
                     <li class="hideOnMobile"><a href="dining.html">Dining</a></li>
@@ -30,11 +20,21 @@
         </nav>
         <button>Reserve Now</button>
         <button>Sign In</button>
-
+<!--         <aside class = "sidebar">
+            <ul class="sidebar__links">
+                <li><a href="hotels-and-resorts.html">Hotels & Resorts</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="meetings-and-events.html">Meetings & Events</a></li>
+                <li><img src="images/icon-close.png" class="close-icon" alt="" height="26" width="26"></li>
+                <input type="checkbox" id="check">
+            </ul>
+            <button>Reserve Now</button>
+            <button>Sign In</button>
+        </aside> -->
         </header>
         <div class="carousel">
             <div class="carousel__overlay">
-                <h1>Lux @ Punta Mita Mexico</h1>
+                <h1>Lux @ Punta Mita</h1>
                 <p>Paradise in your back yard!</p>
             </div>
         <button class = "carousel__button carousel__button--left"><img src="images/icons-arrow-left.png" alt="Carousel navigation button pointing left"></button>
@@ -81,11 +81,7 @@
                 aliquip ex ea commode consequat. Duis aute irure dolor in reprehenderit in voluptate vetit esse cillum dolore eu fugiat nulla pariatu r. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiurn doloremque laudantium, totam rem apertam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
                 sunt explicabo. Nemo enim ipsam voluptatem quia vo!uptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempera incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                quis nostrum exercitationem ullam corporis suscipit Jaboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-                consequatur, vel illum qui dolorem eum fuglat quo voluptas nulla pariatur?Nemo enim ipsam voluptatem quia vo!uptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temper incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commode consequat</p>
+                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempera incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
         </div>
         <div class="content__span-2">
             <br>
@@ -109,8 +105,8 @@
         </div>
 </div>
 </main> 
-<footer>
-    <hr>
+<footer style="margin-bottom: 0;">
+    <img src="images/airline_ad.jpg" alt="">
     <h1 class="logo"><a href="index.html">Lux Resort</a></h1>
 </footer>
 <!--     <script>
