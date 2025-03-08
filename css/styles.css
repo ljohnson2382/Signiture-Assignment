@@ -21,7 +21,6 @@ li a button {
   background-color: #000000;
 }
 
-
 header {
   width: 100%;
   align-items: center;
@@ -215,6 +214,15 @@ button:hover {
   text-indent: 1rem;
 }
 
+.carousel__button.carousel__button--right:hover {
+  background: transparent;
+}
+
+.carousel__button.carousel__button--left:hover {
+  background: transparent;
+  color: #00ffff;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -225,7 +233,8 @@ button:hover {
   display: grid;
   grid-template-columns: 400px 1fr 1fr;
   gap: 1rem;
-  margin: 8vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 
 .content__img-1 {
@@ -238,14 +247,13 @@ button:hover {
 .content__img-2 {
   max-width: 100%;
   max-height: 380px;
-  padding: 0;
   object-position: cover;
 }
 
 .content__img-1 p {
   font-style: italic;
   padding-top: 5rem;
-  padding-bottom: 1rem; */
+  padding-bottom: 1rem;
 }
 
 .content__span-2 {
@@ -254,7 +262,6 @@ button:hover {
 }
 
 .call-to-action {
-
   text-wrap: nowrap;
 }
 
@@ -262,34 +269,17 @@ button:hover {
   grid-area: span 2;
 }
 
-.card {
+.card_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
-max-width: 80%;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 
-.card p {
-  padding: 0;
-}
-
-.item {
-  display: grid;
-  grid-template-rows: ;
-  grid-template-columns: repeat(3, 1fr);
-}
-.item.item-1 {
-  max-width: 33%;
-  max-height: 200px;
-}
-
-
-.item.item-1 {
-  max-width: 33%;
-}
-
-.item.item.image-2 {
-  max-width: 33%;
+.menu_card h2 p {
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 footer {
@@ -298,18 +288,16 @@ footer {
   grid-template-rows: 1fr 1fr;
   background-color: #222222;
   align-items: end;
-  margin bottom: 0;
+  margin-top: 2vh;
+  margin-bottom: 0;
   color: #ffffff;
-  margin-bottom: 2rem;
-  margin-top: 2reM;
-  height: 14rem;
+  height: 16rem;
   width: 100%;
 }
 
 footer h1 {
   margin-left: 3vw;
   grid-area: 2/1;
-
 }
 
 footer img {

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meetings & Events</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile_styles.css" media="(min-width: 300px) and (max-width: 1200px)">
 </head>
 <body>
+
     <header>
         <h1 class = "logo"><a href="index.html">Lux Resorts</a></h1>
         <nav class="nav__bar">
@@ -19,44 +21,54 @@
         <a href="#"><button>Reserve Now</button>
         <a href="#"><button>Sign In</button></a>
     </header>
-        <div class = carousel>
-        <button class = "carousel__button carousel__button--left"><img src="images/icons-arrow-left.png" alt="Carousel navigation button pointing left"></button>      
+    <div class = carousel>
+        <button class = "carousel__button carousel__button--left"><img src="images/icons-arrow-left.png" alt="Carousel navigation button pointing left"></button>
         <div class = "carousel__track-container">
             <ul class = "carousel__track">
-                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_1.jpeg" alt="Sunset view over a pool at the resort." height="500"></li>
-                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_1.jpeg" alt="View of the esort from a sandbar surronded by water on two sides." height="500"></li>
-                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_1.jpeg" alt="An image of lounge chairs on the beach overlooking crystal clear blue water." height="500"></li>
-                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_4.jpeg" alt="Arial view of the resort beach." height="500"></li>
+                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_1.jpg" alt="" height="500" width="600px"></li>
+                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_2.jpeg" alt="" height="500" width="600px"></li>
+                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_3.jpeg" alt="" height="500" width="600px"></li>
+                <li class="carousel__slide"><img class = "carousel__image" src="images/dining_image_4.jpeg" alt="" height="500" width="600px"></li>
                 <li class="carousel__slide"></li>
             </ul>
-            </div>
-            <button class = "carousel__button carousel__button--right"><img src="images/icons-arrow-right.png" alt=""></button>
-            <div class="carousel__nav">
+        </div>
+        <button class = "carousel__button carousel__button--right"><img src="images/icons-arrow-right.png" alt=""></button>
+    
+        <div class="carousel__nav">
             <button class="carousel__indicator current-slide"></button>
             <button class="carousel__indicator"></button>
             <button class="carousel__indicator"></button>
             <button class="carousel__indicator"></button>            
+        </div>
+    </div>
+<main>
+    <div class="card_container">
+        <div class="menu_card">
+            <div class="card__overlay">
+                <h1>Bello Fresco</h1>
             </div>
-            <main>
-                <div class="container sub">
-                    <div class="item">
-                        <div class = "item item-1"><img src="images/dining_image_5.jpeg" alt="" height="250" width="523"></div>
-                        <h2>Bello Fresco</h2>
-                        <p></p>
-                    </div>
-                    <div class="item">
-                        <div class = "item item-2"><img src="images/dining_image_6.jpeg" alt="" height="250" width="523"><h2>El Endén</h2></div>
-                        <p></p>
-                        </div>
-                    <div class="card">
-                        <div class = "item item-3"><img src="images/dining_image_7.jpeg" alt="" height="250" width="523"></div>
-                        <h2>Prime</h2>
-                        <p></p>
-                    </div>
-                </div>
-            </main>
-<footer style="background-color: #6b6b6b;">
-    <h1 class="logo"><a href="home.html"></a>Lux Resort</h1>
-</footer>   
-</body>  
-</html>
+            <img src="images/dining_image_5.jpeg" alt="" height="250vh" width="431vw">
+            <p>Welcome to Bello Fresco, where Italy's finest flavors meet modern luxury. Savor handmade pastas, artisanal pizzas, and fresh, seasonal dishes in an elegant, inviting setting. With breathtaking views and impeccable service, every meal is a celebration of authentic Italian cuisine. Only at Lux Resorts.</p>
+        </div>
+        <div class="menu_card">
+            <div class="card__overlay">
+                <h1>El Edén</h1>
+            </div>
+            <img src="images/dining_image_6.jpeg" alt="" height="250vh" width="431vw">
+            <p>Where the vibrant essence of Mexican cuisine meets refined luxury. Indulge in freshly crafted tacos, sizzling fajitas, and bold, authentic flavors, all served in a warm and inviting atmosphere. With stunning resort views and exceptional service, every meal is a journey to paradise. Only at Lux Resorts.</p>
+        </div>
+        <div class="menu_card">
+            <div class="card__overlay">
+                <h1>Prime</h1>
+            </div>
+            <img src="images/dining_image_7.jpeg" alt="" height="250vh" width="431vw">
+            <p>The ultimate destination for steakhouse excellence at Lux Resorts. Relish in premium, expertly aged cuts, fresh seafood, and gourmet sides, all crafted to perfection. With an elegant ambiance, impeccable service, and breathtaking views, every meal at Prime is a celebration of refined taste and culinary mastery.</p>
+        </div>
+    </div>
+</main>
+<footer style="background-color: #6b6b6b; margin-bottom: 0;">
+<img src="images/airline_ad.jpg" alt="">
+<h1 class="logo"><a href="index.html"></a>Lux Resort</h1>
+</footer>
+</body>
+</html

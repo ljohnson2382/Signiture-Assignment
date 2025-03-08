@@ -1,4 +1,4 @@
-* {
+body {
   box-sizing: border-box;
   margin: 0;
 }
@@ -21,7 +21,6 @@ li a button {
   background-color: #000000;
 }
 
-
 header {
   width: 100%;
   align-items: center;
@@ -35,7 +34,6 @@ header {
 }
 
 .nav__bar {
-
   width: auto;
   padding: 0;
 }
@@ -50,7 +48,7 @@ header {
 }
 
 .nav__bar a {
-    display: ;
+  display: flex;
   text-decoration: none;
   text-wrap: nowrap;
   color: #ffffff;
@@ -217,23 +215,15 @@ button:hover {
   text-indent: 1rem;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-}
-
 .content__grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 8vw;
 }
 
 .content__img-1 {
   max-width: 100%;
   max-height: 380px;
-  padding: 0;
   object-position: cover;
 }
 
@@ -247,72 +237,48 @@ button:hover {
 .content__img-1 p {
   font-style: italic;
   padding-top: 5rem;
-  padding-bottom: 1rem; */
-}
-
-.content__span-2 {
-  display: grid;
-  grid-column: span 2;
+  padding-bottom: 1rem;
 }
 
 .call-to-action {
-
   text-wrap: nowrap;
 }
 
-.item.text-block-1 {
-  grid-area: span 2;
-}
-
-.card {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-
-}
-
-.card p {
-  padding: 0;
-}
-
-.item {
+.card_container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-flow: column;
-  align-tracks: center;
-}
-.item.item-1 {
-  max-width: 33%;
-  max-height: 200px;
+  grid-gap: 1rem;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 
-
-.item.item- {
-  max-width: 33%;
+.menu_card {
+  max-width: 430px;
+}
+.card__overlay {
+  z-index: 999;
 }
 
-.item.item.image-2 {
-  max-width: 33%;
+.menu_card h2 p {
+  padding: 0px;
+  margin: 0;
 }
 
 footer {
   display: grid;
   grid-template-columns: 100%;
-
   background-color: #222222;
   align-items: end;
-  margin bottom: 0;
+  margin-top: 2rem;
+  margin-bottom: 0;
   color: #ffffff;
-  margin-bottom: 2rem;
-  margin-top: 2reM;
   height: 14rem;
   width: 100%;
 }
 
 footer h1 {
-margin-left: 3vw;
-margin-bottom: 3vh;
-
+  margin-left: 3vw;
+  margin-bottom: 3vh;
 }
 
 footer img {
@@ -320,4 +286,5 @@ footer img {
   margin-right: 3vw;
   margin-bottom: 3vh;
   grid-area: auto;
+  margin: 0 auto;
 }
